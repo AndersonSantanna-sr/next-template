@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Share2, ExternalLink, Mail } from 'lucide-react';
 
 // TODO: update links, social URLs, and brand info
 const footerLinks = {
@@ -21,9 +21,9 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
+  { icon: Mail, href: '#', label: 'Email' },
+  { icon: ExternalLink, href: '#', label: 'Website' },
+  { icon: Share2, href: '#', label: 'Share' },
 ];
 
 export function Footer() {
