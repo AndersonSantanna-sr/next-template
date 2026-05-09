@@ -32,8 +32,8 @@ export function FAQSection() {
 
           <motion.div variants={fadeUp} className='mt-12'>
             <Accordion className='space-y-2'>
-              {faqItems.map((item, i) => (
-                <AccordionItem key={i} value={`item-${i}`}>
+              {faqItems.map((item) => (
+                <AccordionItem key={item.question} value={item.question}>
                   <AccordionTrigger>{item.question}</AccordionTrigger>
                   <AccordionContent>{item.answer}</AccordionContent>
                 </AccordionItem>

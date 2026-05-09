@@ -39,6 +39,7 @@ export function PricingSection() {
                 )}
                 role='switch'
                 aria-checked={annual}
+                aria-label='Toggle annual billing'
               >
                 <span
                   className={cn(

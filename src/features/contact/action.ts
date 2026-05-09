@@ -13,8 +13,7 @@ export async function sendContactMessage(data: {
     return { success: false, error: 'Invalid form data.' };
   }
 
-  // TODO: replace with real email provider (Resend, Nodemailer, etc.)
-  console.log('Contact form submission:', result.data);
+  // TODO: wire real email provider here (Resend, Nodemailer, etc.) — remove this comment
 
   return { success: true };
 }
