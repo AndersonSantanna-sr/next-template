@@ -39,6 +39,7 @@ export function HeroSection() {
           {/* TODO: update CTA href and labels */}
           <Button
             size='lg'
+            nativeButton={false}
             render={
               <Link href='#contact'>
                 Get started <ArrowRight className='ml-2 h-4 w-4' />
@@ -48,6 +49,7 @@ export function HeroSection() {
           <Button
             size='lg'
             variant='outline'
+            nativeButton={false}
             render={<Link href='#benefits'>See how it works</Link>}
           />
         </motion.div>

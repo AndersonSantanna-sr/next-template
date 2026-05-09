@@ -9,7 +9,7 @@ export function NotFoundPage() {
       <p className='max-w-sm text-muted-foreground'>
         A página que você está procurando não existe ou foi movida.
       </p>
-      <Button render={<Link href='/'>Voltar para o início</Link>} />
+      <Button nativeButton={false} render={<Link href='/'>Voltar para o início</Link>} />
     </div>
   );
 }
